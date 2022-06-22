@@ -17,12 +17,12 @@
     <section class="header">
 
         <nav>
-            <a href="index.html"><img src="images/MandelaUniversity_logo_B.png"></a>
+            <a href="index.html"><img src="images/ARMSCORLogo.png"></a>
             <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">HOME</a></li>
-                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
                     <li><a href="">CONTACT</a></li>
                     <li><a href="">ABOUT</a></li>
 
@@ -32,9 +32,9 @@
         </nav>
         <div class="text-box">
             <h1>GETAWAY DEFENCE SOLUTIONS</h1>
-            <P>Flamengro</P>
-            <div class="text">
-                <a href=""  class="hero-btn">Visit us now</a>
+            <P>Armanments Coperation of South Africa</P>
+            <div class="textb">
+                <a href=""  class="hero-btn">View</a>
             </div>
            
 
@@ -43,48 +43,50 @@
 
 
 <section class="company">
-    <h1>Our companies</h1>
-    <p>ggvavghvadvhahbaba</p>
+    <h1>Services </h1>
+    <p>Armanments Coperation of South Africa</p>
 
-    <div class="row">
-        <div class="company-col">
-            <h3>
+    
+        <div class="cards">
+            <div class="card"><h2>Acquisition </h2>
+            <p>this is an article for my cards gfghfhg ygyugyg yguyyg ygyg gfyft
 
-                Flamengro
-            </h3>
-            <p>
-                kjlzsdjvnxklvnhxkc 
-                gfhjkdfbvhcdgcvyjugf
             </p>
-           
+
         </div>
-        <div class="company-col">
-            <h3>
-
-                Flamengro
-            </h3>
-            <p>
-                kjlzsdjvnxklvnhxkc 
-                gfhjkdfbvhcdgcvyjugf
-            </p>
-           
-        </div>
-        <div class="company-col">
-            <h3>
-
-                Flamengro
-            </h3>
-            <p>
-                kjlzsdjvnxklvnhxkc 
-                gfhjkdfbvhcdgcvyjugf
-            </p>
-           
-        </div>  
-
-    </div>
-
+            <div class="card"><h2>Acquisition </h2>
+                <p>this is an article for my cards this is an article for my cards gfghfhg ygyugyg yguyyg ygyg gfyft</p>
+                <div class="btnr">
+                    <a href="http://twitter.com">Read more..</a>
+                </div>
+            </div>
+            <div class="card"><h2>AB Logistics</h2>
+                <p>this is an article for my cards this is an article for my cards gfghfhg ygyugyg yguyyg ygyg gfyft</p>
+                <div class="btnr">
+                    <a href="http://twitter.com">Read more..</a>
+                </div>
+            </div>
+            <div class="card"><h2>Dockyard</h2>
+                <p>this is an article for my cards this is an article for my cards gfghfhg ygyugyg yguyyg ygyg gfyft</p>
+                <div class="btnr">
+                    <a href="http://twitter.com">Read more..</a>
+                </div>
+            </div>
+            <div class="card"><h2>Research and Development </h2>
+                <p>this is an article for my cards this is an article for my cards gfghfhg ygyugyg yguyyg ygyg gfyft</p>
+                <div class="btnr">
+                    <a href="http://twitter.com">Read more..</a>
+                </div>
+            </div>
+                
+            </div>
 
 </section>
+
+
+
+
+
 <section class="campus">
     <h1>Our Head Q</h1>
 
@@ -201,7 +203,7 @@
 
 <section class="cta">
     <h1>
-        Enroll for our varioys pnline 
+        Enroll for our various online 
     </h1>
     <a href="" class="hero-btn">Contact US</a>
 
@@ -236,6 +238,45 @@
 
         }
 
+        var btn_slider= document.getElementsByClassName("btn");
+        var slide = document.getElementsById("slider_news");
+      
+
+        btn[0].onclick=function(){
+            slide.style.transform="translateX(0px)";
+            for(i=0;i<4;i++){
+
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+
+        btn[1].onclick=function(){
+            slide.style.transform="translateX(-800px)";
+                for(i=0;i<4;i++){
+
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+
+        }
+        btn[2].onclick=function(){
+            slide.style.transform="translateX(-1600px)";
+                for(i=0;i<4;i++){
+
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
+        btn[3].onclick=function(){
+            slide.style.transform="translateX(-2400px)";
+
+                for(i=0;i<4;i++){
+
+                btn[i].classList.remove("active");
+            }
+            this.classList.add("active");
+        }
 
     </script>
 </body>
